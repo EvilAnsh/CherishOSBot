@@ -34,5 +34,10 @@ database = {
         "device" : "Realme 5 Series",
         "maintainer" : "@MAdMiZ"
         "sgroup" : "https://t.me/HOME_MadMiZ",
+    },
+    "lava": {
+         "device": "Redmi 9/Poco M2",
+         "maintainer": "@marat2509 & @orkunergun",
+         "sgroup": "https://t.me/CherishOS_lava",
     }
-}
+}    
