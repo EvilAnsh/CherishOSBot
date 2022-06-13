@@ -44,5 +44,10 @@ database = {
         "device" : "Redmi Note 9 Pro Series",
     "maintainer" : "@neutral_boi",
         "sgroup" : "https://t.me/neutralbuilds",
+    },
+    "raphael"  : {
+        "device" : "Redmi K20 Pro/Mi 9T Pro",
+        "maintainer" : "@DanipunK1",
+        "sgroup" : "https://t.me/CherishOS_Raphael",
     }                            
 }    
