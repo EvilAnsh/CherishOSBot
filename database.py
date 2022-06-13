@@ -39,5 +39,10 @@ database = {
          "device": "Redmi 9/Poco M2",
          "maintainer": "@marat2509 & @orkunergun",
          "sgroup": "https://t.me/CherishOS_lava",
-    }
+    },
+    "miatoll" : {
+        "device" : "Redmi Note 9 Pro Series",
+    "maintainer" : "@neutral_boi",
+        "sgroup" : "https://t.me/neutralbuilds",
+    }                            
 }    
