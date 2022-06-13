@@ -38,8 +38,8 @@ cnopts = pysftp.CnOpts()
 cnopts.hostkeys.add('frs.sourceforge.net', 'ssh-ed25519', key)
 
 # Official device list
-devurl = "https://raw.githubusercontent.com/ProjectBlaze/vendor_blaze/12.1/blaze.devices"
-gdevurl = "https://github.com/ProjectBlaze/vendor_blaze/blob/12.1/blaze.devices"
+devurl = "https://raw.githubusercontent.com/CherishOS/android_vendor_cherish/twelve-one/cherish.devices"
+gdevurl = "https://github.com/CherishOS/android_vendor_cherish/blob/twelve-one/cherish.devices"
 req = requests.get(devurl)
 if req.status_code in [200]:
     devices = req.text
@@ -55,7 +55,7 @@ async def start(update: Update, context: CallbackContext.DEFAULT_TYPE):
         return
     mess_id = update.effective_message.message_id
     mess = '''
-Hello, I am BlazeBot.
+Hello, I am CherishBot.
 Use /help to know how to use me.
 '''
 
@@ -97,7 +97,7 @@ Please use UpperCase letters if you did same <a href="{gdevurl}">here</a>
 device_changelog_link is telegraph link of changelog for your device.
 
 e.g. :
-/post onclite https://telegra.ph/Changelogs-11-05-08
+/post santoni https://telegra.ph/Device-Changelog-Cherish-05-21
 '''
     dmess = f'''
 Sorry, I couldn't find your device codename <a href="{gdevurl}" >here</a>.
@@ -126,21 +126,21 @@ Please make PR if you didn't.
     year = current_time.year
     date = f" {month}-{day}-{year} "
     mess = f'''
-Project Blaze v{database['BlazeVersion']} - OFFICIAL | Android 12L
+CherishOS v{database['CherishVersion']} - OFFICIAL | Android 12L
 📲 : {database[codename]['device']} ({codename})
 📅 : {date}
 🧑‍💼 : {database[codename]['maintainer']}
 
-▪️ Changelog: <a href="https://github.com/ProjectBlaze/official_devices/blob/12.1/changelog.md" >Source</a> | <a href="{dclog}" >Device</a>
-▪️ <a href="https://www.projectblaze.live/download.html" >Download</a>
-▪️ <a href="https://t.me/projectblazeupdates/97" >Screenshots</a>
+▪️ Changelog: <a href="https://t.me/CherishOS/1095" >Source</a> | <a href="{dclog}" >Device</a>
+▪️ <a href="https://downloads.cherishos.com" >Download</a>
+▪️ <a href="http://paypal.me/hungphan2001" >Donate</a>
 ▪️ <a href="{database[codename]['sgroup']}" >Support Group</a>
-▪️ <a href="https://t.me/projectblaze" >Community Chat</a>
-▪️ <a href="https://t.me/projectblazeupdates" >Updates Channel</a>
+▪️ <a href="https://t.me/cherishos_chat" >Community Chat</a>
+▪️ <a href="https://t.me/CherishOS" >Updates Channel</a>
 
-#Blaze #{codename} #Android12L #S
+#CherishOS #{codename} #Android12L #S
 '''
-    await context.bot.send_photo(CHAT_ID, photo=open('images/blaze1.2.png', 'rb'), caption=mess, reply_to_message_id=mess_id, parse_mode='HTML')
+    await context.bot.send_photo(CHAT_ID, photo=open('images/cherish.png', 'rb'), caption=mess, reply_to_message_id=mess_id, parse_mode='HTML')
 
 # Upload command
 async def upload(update: Update, context: CallbackContext.DEFAULT_TYPE):
@@ -149,7 +149,7 @@ async def upload(update: Update, context: CallbackContext.DEFAULT_TYPE):
         return
     mess_id = update.effective_message.message_id
     # SourceForge variables
-    username = "ganesh314159"
+    username = "khuonghung1423"
     chat_id = update.effective_chat.id
     # if confirmChat(chat_id):
     #     chat_id = chat_id
@@ -164,10 +164,10 @@ Use this command in following format to upload GDrive files to SourceForge.
 /upload device_codename gdrive_link
 device_codename is codename for your device.
 Please use UpperCase letters if you did same <a href="{gdevurl}">here</a>
-gdrive_link is GoogleDrive link of Blaze rom file for your device.
+gdrive_link is GoogleDrive link CherishOS rom file for your device.
 Make sure your GDrive file is public.
 e.g. :
-/upload onclite https://drive.google.com/uc?id=1UZ_HrwsCDA6yobGSrHgbLgn_Vvud_s3G&export=download
+/upload santoni https://drive.google.com/uc?id=1i_WcfvLs92MJ6K12PxC-qpHe1lOLiajk&export=download
 Note :- 
 1. Do not play with this command. Only use this command when you are 100% sure with your build and you want to release it.
 2. Currently only GDrive links are supported. Support for other links will be added soon.
@@ -205,21 +205,21 @@ Target : 🌐 GoogleDrive 🌐
 '''
     await context.bot.send_message(CHAT_ID, reply_to_message_id=mess_id, text=mess, parse_mode='HTML', disable_web_page_preview=True)
     file_path = gdown.download(url=gdurl, output='temp/')
-    target_url = f'https://sourceforge.net/projects/projectblaze/files/{codename}/'
+    target_url = f'https://sourceforge.net/projects/cherish-os/files/device/{codename}/'
     mess2 = f'''
 File : 🗂️ <a href="{gdurl}" >{name}</a> 🗂️
 Status : Uploading...📤
 Size : {size}
-Target : 🌐 <a href="{target_url}">projectblaze/{codename}</a> 🌐
+Target : 🌐 <a href="{target_url}"cherish-os/{codename}</a> 🌐
 '''
     await context.bot.edit_message_text(chat_id=chat_id, message_id=bmess_id, text=mess2, parse_mode='HTML', disable_web_page_preview=True)
-    with pysftp.Connection('frs.sourceforge.net', username='ganesh314159', password=sfpass, cnopts=cnopts) as sftp:
-        with sftp.cd(f'/home/frs/project/projectblaze/{codename}'):
+    with pysftp.Connection('frs.sourceforge.net', username='khuonghung1423', password=sfpass, cnopts=cnopts) as sftp:
+        with sftp.cd(f'/home/frs/project/cherish-os/device/{codename}'):
             sftp.put(f'{file_path}')
     mess3 = f'''
 File : 🗂️ <a href="{gdurl}" >{name}</a> 🗂️
 Status : Uploaded✅
-Target : 🌐 <a href="{target_url}">projectblaze/{codename}</a> 🌐
+Target : 🌐 <a href="{target_url}"cherish-os/{codename}</a> 🌐
 '''
     os.remove(f'temp/{name}')
     await context.bot.edit_message_text(chat_id=chat_id, message_id=bmess_id, text=mess3, parse_mode='HTML', disable_web_page_preview=True)
