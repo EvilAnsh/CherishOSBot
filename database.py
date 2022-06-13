@@ -32,7 +32,7 @@ database = {
     },
     "r5x" : {
         "device" : "Realme 5 Series",
-        "maintainer" : "@MAdMiZ"
+        "maintainer" : "@MAdMiZ",
         "sgroup" : "https://t.me/HOME_MadMiZ",
     },
     "lava": {
