@@ -29,5 +29,10 @@ database = {
         "device" : "Poco F1",
         "maintainer" : "@xisan",
         "sgroup" : "https://t.me/arcana_beryllium",
+    },
+    "r5x" : {
+        "device" : "Realme 5 Series",
+        "maintainer" : "@MAdMiZ"
+        "sgroup" : "https://t.me/HOME_MadMiZ",
     }
-}    
+}
