@@ -30,9 +30,9 @@ database = {
         "maintainer" : "@xisan",
         "sgroup" : "https://t.me/arcana_beryllium",
     },
-    "r5x" : {
-        "device" : "Realme 5 Series",
-        "maintainer" : "@MAdMiZ"
-        "sgroup" : "https://t.me/HOME_MadMiZ",
+    "miatoll" : {
+        "device" : "Redmi Note 9 Pro Series",
+        "maintainer" : "@neutral_boi "
+        "sgroup" : "https://t.me/neutralbuilds",
     }
 }
