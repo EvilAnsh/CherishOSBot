@@ -21,8 +21,13 @@ database = {
         "sgroup" : "https://t.me/AnshPrjkt",
     },
     "avicii"  : {
-        "device" : "OneOlus Nord",
+        "device" : "Oneplus Nord",
         "maintainer" : "@Snippetguy",
         "sgroup" : "https://t.me/cherishForNord",
+    },
+    "beryllium"  : {
+        "device" : "Poco F1",
+        "maintainer" : "@xisan",
+        "sgroup" : "https://t.me/arcana_beryllium",
     }
 }    
