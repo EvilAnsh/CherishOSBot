@@ -45,6 +45,11 @@ database = {
     "maintainer" : "@neutral_boi",
         "sgroup" : "https://t.me/neutralbuilds",
     },
+    "surya" : {
+        "device" : "Poco X3 NFC",
+    "maintainer" : "@HyperNotHornyX97",
+        "sgroup" : "https://t.me/cherishospocox3chat",
+    },
     "raphael"  : {
         "device" : "Redmi K20 Pro/Mi 9T Pro",
         "maintainer" : "@DanipunK1",
