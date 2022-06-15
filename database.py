@@ -54,5 +54,10 @@ database = {
         "device" : "Redmi K20 Pro/Mi 9T Pro",
         "maintainer" : "@DanipunK1",
         "sgroup" : "https://t.me/CherishOS_Raphael",
-    }                            
+    },
+    "RMX1851" : {
+        "device" : "Realme 3 Pro",
+        "maintainer" : "@Cykeek",
+        "sgroup" : "https://t.me/CykeekBuilds",
+    }
 }    
