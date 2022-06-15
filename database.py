@@ -59,5 +59,10 @@ database = {
         "device" : "Realme 3 Pro",
         "maintainer" : "@Cykeek",
         "sgroup" : "https://t.me/CykeekBuilds",
+    },
+    "alioth" : {
+        "device" : "Mi 11X/Poco F3/Redimi K40",
+        "maintainer" : "@hungphan2001 & @revolwoc",
+        "sgroup" : "https://t.me/cherishos_alioth",
     }
 }    
