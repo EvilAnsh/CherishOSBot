@@ -74,5 +74,10 @@ database = {
         "device" : "Mi 8 Lite",
         "maintainer" : "@rrnanairo",
         "sgroup" : "https://t.me/cherishos_platina",
+    },    
+    "X00TD" : {
+        "device" : "Asus Zenfone Max Pro M1",
+        "maintainer" : "@NotHarshhaa",
+        "sgroup" : "https://t.me/AsusX00Tgaming",    
     }
 }    
