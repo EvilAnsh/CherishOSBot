@@ -14,7 +14,7 @@ months = {
 }
 
 database = {
-    "CherishVersion" : "3.8",
+    "CherishVersion" : "3.9",
     "santoni" : {
         "device" : "Redmi 4/4X",
         "maintainer" : "@EvilAnsh",
