@@ -64,5 +64,10 @@ database = {
         "device" : "Mi 11X/Poco F3/Redimi K40",
         "maintainer" : "@hungphan2001 & @revolwoc",
         "sgroup" : "https://t.me/cherishos_alioth",
+    },
+    "platina" : {
+        "device" : "Mi 8 Lite",
+        "maintainer" : "@rrnanairo",
+        "sgroup" : "https://t.me/cherishos_platina",
     }
 }    
