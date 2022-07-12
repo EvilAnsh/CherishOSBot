@@ -40,6 +40,11 @@ database = {
          "maintainer": "@marat2509 & @orkunergun",
          "sgroup": "https://t.me/CherishOS_lava",
     },
+    "lavender" : {
+             "device" : "Redmi Note 7/7S"
+             "maintainer" : "@moonichanwa"
+             "sgroup" : "https://t.me/CherishOS_Lavender"
+    },
     "miatoll" : {
         "device" : "Redmi Note 9 Pro Series",
     "maintainer" : "@neutral_boi",
