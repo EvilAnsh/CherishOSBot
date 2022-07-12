@@ -40,11 +40,6 @@ database = {
          "maintainer": "@marat2509 & @orkunergun",
          "sgroup": "https://t.me/CherishOS_lava",
     },
-    "lavender" : {
-             "device" : "Redmi Note 7/7S"
-             "maintainer" : "@moonichanwa",
-             "sgroup" : "https://t.me/CherishOS_Lavender"
-    },
     "miatoll" : {
         "device" : "Redmi Note 9 Pro Series",
     "maintainer" : "@neutral_boi",
@@ -74,5 +69,10 @@ database = {
         "device" : "Mi 8 Lite",
         "maintainer" : "@rrnanairo",
         "sgroup" : "https://t.me/cherishos_platina",
+    },    
+    "X00TD" : {
+        "device" : "Asus Zenfone Max Pro M1",
+        "maintainer" : "@NotHarshhaa",
+        "sgroup" : "https://t.me/AsusX00Tgaming",    
     }
 }    
