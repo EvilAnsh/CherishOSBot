@@ -23,7 +23,7 @@ database = {
     "avicii"  : {
         "device" : "Oneplus Nord",
         "maintainer" : "@Snippetguy",
-        "sgroup" : "https://t.me/cherishForNord",
+        "sgroup" : "https://t.me/snippetroms",
     },
     "beryllium"  : {
         "device" : "Poco F1",
