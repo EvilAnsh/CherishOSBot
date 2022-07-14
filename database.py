@@ -55,6 +55,11 @@ database = {
     "maintainer" : "@HyperNotHornyX97",
         "sgroup" : "https://t.me/cherishospocox3chat",
     },
+    "sweet" : {
+        "device" : "Redmi Note 10 Pro",
+    "maintainer" : "@mrfox2003 & @madhavbiju",
+        "sgroup" : "https://t.me/foxbuilds",
+    },
     "raphael"  : {
         "device" : "Redmi K20 Pro/Mi 9T Pro",
         "maintainer" : "@DanipunK1",
