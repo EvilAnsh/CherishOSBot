@@ -54,5 +54,10 @@ database = {
         "device" : "Redmi K20 Pro/Mi 9T Pro",
         "maintainer" : "@DanipunK1",
         "sgroup" : "https://t.me/CherishOS_Raphael",
-    }                            
+    },
+    "certus"  : {
+        "device" : "Redmi 6/6a",
+        "maintainer" : "@Chikoni_uwu",
+        "sgroup" : "unavailable",
+    }
 }    
