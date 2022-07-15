@@ -30,9 +30,9 @@ database = {
         "maintainer" : "@xisan",
         "sgroup" : "https://t.me/arcana_beryllium",
     },
-    "cactus" : {
+    "certus" : {
         "device" : "Redmi 6/6a",
-        "maintainer" : "@@Chikoni_uwu",
+        "maintainer" : "@Chikoni_uwu",
         "sgroup" : "https://t.me/chikoniroms",
     }, 
     "lava": {
