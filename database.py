@@ -15,10 +15,10 @@ months = {
 
 database = {
     "CherishVersion" : "3.9",
-    "santoni" : {
-        "device" : "Redmi 4/4X",
-        "maintainer" : "@EvilAnsh",
-        "sgroup" : "https://t.me/AnshPrjkt",
+    "alioth" : {
+        "device" : "Mi 11X/Poco F3/Redimi K40",
+        "maintainer" : "@hungphan2001 & @revolwoc",
+        "sgroup" : "https://t.me/cherishos_alioth",
     },
     "avicii"  : {
         "device" : "Oneplus Nord",
@@ -30,11 +30,11 @@ database = {
         "maintainer" : "@xisan",
         "sgroup" : "https://t.me/arcana_beryllium",
     },
-    "r5x" : {
-        "device" : "Realme 5 Series",
-        "maintainer" : "@MAdMiZ",
-        "sgroup" : "https://t.me/HOME_MadMiZ",
-    },
+    "cactus" : {
+        "device" : "Redmi 6/6a",
+        "maintainer" : "@@Chikoni_uwu",
+        "sgroup" : "https://t.me/chikoniroms",
+    }, 
     "lava": {
          "device": "Redmi 9/Poco M2",
          "maintainer": "@marat2509 & @orkunergun",
@@ -47,13 +47,23 @@ database = {
     },
     "miatoll" : {
         "device" : "Redmi Note 9 Pro Series",
-    "maintainer" : "@neutral_boi",
+        "maintainer" : "@neutral_boi",
         "sgroup" : "https://t.me/neutralbuilds",
     },
-    "surya" : {
-        "device" : "Poco X3 NFC",
-    "maintainer" : "@HyperNotHornyX97",
-        "sgroup" : "https://t.me/cherishospocox3chat",
+    "platina" : {
+        "device" : "Mi 8 Lite",
+        "maintainer" : "@rrnanairo",
+        "sgroup" : "https://t.me/cherishos_platina",
+    }, 
+    "r5x" : {
+        "device" : "Realme 5 Series",
+        "maintainer" : "@MAdMiZ",
+        "sgroup" : "https://t.me/HOME_MadMiZ",
+    },
+    "sweet" : {
+        "device" : "Redmi Note 10 Pro",
+    "maintainer" : "@mrfox2003 & @madhavbiju",
+        "sgroup" : "https://t.me/foxbuilds",
     },
     "raphael"  : {
         "device" : "Redmi K20 Pro/Mi 9T Pro",
@@ -65,16 +75,16 @@ database = {
         "maintainer" : "@Cykeek",
         "sgroup" : "https://t.me/CykeekBuilds",
     },
-    "alioth" : {
-        "device" : "Mi 11X/Poco F3/Redimi K40",
-        "maintainer" : "@hungphan2001 & @revolwoc",
-        "sgroup" : "https://t.me/cherishos_alioth",
-    },
-    "platina" : {
-        "device" : "Mi 8 Lite",
-        "maintainer" : "@rrnanairo",
-        "sgroup" : "https://t.me/cherishos_platina",
-    },    
+    "santoni" : {
+        "device" : "Redmi 4/4X",
+        "maintainer" : "@EvilAnsh",
+        "sgroup" : "https://t.me/AnshPrjkt",
+    }, 
+    "surya" : {
+        "device" : "Poco X3 NFC",
+        "maintainer" : "@HyperNotHornyX97",
+        "sgroup" : "https://t.me/cherishospocox3chat",
+    },  
     "X00TD" : {
         "device" : "Asus Zenfone Max Pro M1",
         "maintainer" : "@NotHarshhaa",
