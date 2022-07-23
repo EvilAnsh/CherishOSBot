@@ -89,5 +89,15 @@ database = {
         "device" : "Asus Zenfone Max Pro M1",
         "maintainer" : "@NotHarshhaa",
         "sgroup" : "https://t.me/AsusX00Tgaming",    
+    },  
+    "fajita" : {
+        "device" : "Oneplus 6T",
+        "maintainer" : "https://t.me/OptimussPriime",
+        "sgroup" : "https://t.me/op6serieshub",    
+    },  
+    "enchilada" : {
+        "device" : "Oneplus 6",
+        "maintainer" : "https://t.me/OptimussPriime",
+        "sgroup" : "https://t.me/op6serieshub",    
     }
 }    
