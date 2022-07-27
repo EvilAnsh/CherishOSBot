@@ -35,6 +35,11 @@ database = {
         "maintainer" : "@Chikoni_uwu",
         "sgroup" : "https://t.me/chikoniroms",
     }, 
+    "chime" : {
+        "device" : "Redmi 9T / Poco M3",
+        "maintainer" : "@Chikoni_uwu",
+        "sgroup" : "https://t.me/chikoniroms",
+    }, 
     "lava": {
          "device": "Redmi 9/Poco M2",
          "maintainer": "@marat2509 & @orkunergun",
