@@ -14,7 +14,7 @@ months = {
 }
 
 database = {
-    "CherishVersion" : "3.9",
+    "CherishVersion" : "3.9.5",
     "alioth" : {
         "device" : "Mi 11X/Poco F3/Redimi K40",
         "maintainer" : "@hungphan2001 & @revolwoc",

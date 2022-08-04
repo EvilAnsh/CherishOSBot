@@ -131,7 +131,7 @@ CherishOS v{database['CherishVersion']} - OFFICIAL | Android 12L
 📅 : {date}
 🧑‍💼 : {database[codename]['maintainer']}
 
-▪️ Changelog: <a href="https://t.me/CherishOS/1120" >Source</a> | <a href="{dclog}" >Device</a>
+▪️ Changelog: <a href="https://t.me/CherishOS/1153" >Source</a> | <a href="{dclog}" >Device</a>
 ▪️ <a href="https://downloads.cherishos.com" >Download</a>
 ▪️ <a href="http://paypal.me/hungphan2001" >Donate</a>
 ▪️ <a href="{database[codename]['sgroup']}" >Support Group</a>
