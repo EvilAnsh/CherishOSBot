@@ -30,9 +30,14 @@ database = {
         "maintainer" : "@xisan",
         "sgroup" : "https://t.me/arcana_beryllium",
     },
-    "cactus" : {
+    "certus" : {
         "device" : "Redmi 6/6a",
-        "maintainer" : "@@Chikoni_uwu",
+        "maintainer" : "@Chikoni_uwu",
+        "sgroup" : "https://t.me/chikoniroms",
+    }, 
+    "chime" : {
+        "device" : "Redmi 9T / Poco M3",
+        "maintainer" : "@Chikoni_uwu",
         "sgroup" : "https://t.me/chikoniroms",
     }, 
     "lava": {
@@ -89,5 +94,15 @@ database = {
         "device" : "Asus Zenfone Max Pro M1",
         "maintainer" : "@NotHarshhaa",
         "sgroup" : "https://t.me/AsusX00Tgaming",    
+    },  
+    "fajita" : {
+        "device" : "Oneplus 6T",
+        "maintainer" : "https://t.me/OptimussPriime",
+        "sgroup" : "https://t.me/op6serieshub",    
+    },  
+    "enchilada" : {
+        "device" : "Oneplus 6",
+        "maintainer" : "https://t.me/OptimussPriime",
+        "sgroup" : "https://t.me/op6serieshub",    
     }
 }    
