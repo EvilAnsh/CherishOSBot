@@ -45,6 +45,11 @@ database = {
         "maintainer" : "@Chikoni_uwu",
         "sgroup" : "https://t.me/chikoniroms",
     }, 
+     "CPH1859": {
+         "device": "Realme 1",
+         "maintainer": "@ark_mark99",
+         "sgroup": "https://t.me/CherishOS_CPH1859",
+    },
     "lava": {
          "device": "Redmi 9/Poco M2",
          "maintainer": "@marat2509 & @orkunergun",
