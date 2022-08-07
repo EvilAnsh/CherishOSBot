@@ -35,6 +35,11 @@ database = {
         "maintainer" : "@Chikoni_uwu",
         "sgroup" : "https://t.me/chikoniroms",
     }, 
+    "chef" : {
+        "device" : "Motorola One Power",
+        "maintainer" : "@sauce_finder",
+        "sgroup" : "https://t.me/motorolaonepower",
+    }, 
     "chime" : {
         "device" : "Redmi 9T / Poco M3",
         "maintainer" : "@Chikoni_uwu",
