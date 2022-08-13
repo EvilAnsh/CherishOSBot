@@ -110,4 +110,11 @@ database = {
         "maintainer" : "https://t.me/OptimussPriime",
         "sgroup" : "https://t.me/op6serieshub",    
     }
+    "spes" : {
+         "device" : "Redmi Note 11/11 NFC",
+         "maintainer" : "sthomsonpl",
+         "sgroup" : "https://t.me/cherishos_spes"
+
+
+    }
 }    
