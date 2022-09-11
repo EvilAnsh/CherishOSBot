@@ -31,12 +31,6 @@ with open(f'{HOME}/secrets.txt', 'r') as file:
     sfpass = content[1]
     CHAT_ID = content[2]
 
-# Host key for pysftp
-keydata = b"""AAAAC3NzaC1lZDI1NTE5AAAAIOQD35Ujalhh+JJkPvMckDlhu4dS7WH6NsOJ15iGCJLC"""
-key = paramiko.Ed25519Key(data=decodebytes(keydata))
-cnopts = pysftp.CnOpts()
-cnopts.hostkeys.add('frs.sourceforge.net', 'ssh-ed25519', key)
-
 # Official device list
 devurl = "https://raw.githubusercontent.com/CherishOS/android_vendor_cherish/twelve-one/cherish.devices"
 gdevurl = "https://github.com/CherishOS/android_vendor_cherish/blob/twelve-one/cherish.devices"
