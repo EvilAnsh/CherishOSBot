@@ -92,8 +92,8 @@ database = {
     }, 
     "surya" : {
         "device" : "Poco X3 NFC",
-        "maintainer" : "@HyperNotHornyX97",
-        "sgroup" : "https://t.me/cherishospocox3chat",
+        "maintainer" : "KUIxd",
+        "sgroup" : "https://t.me/kui_builds",
     },  
     "X00TD" : {
         "device" : "Asus Zenfone Max Pro M1",
