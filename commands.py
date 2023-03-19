@@ -32,8 +32,8 @@ with open(f'{HOME}/secrets.txt', 'r') as file:
     CHAT_ID = content[2]
 
 # Official device list
-devurl = "https://raw.githubusercontent.com/CherishOS/android_vendor_cherish/twelve-one/cherish.devices"
-gdevurl = "https://github.com/CherishOS/android_vendor_cherish/blob/twelve-one/cherish.devices"
+devurl = "https://raw.githubusercontent.com/CherishOS/android_vendor_cherish/tiramisu/cherish.devices"
+gdevurl = "https://github.com/CherishOS/android_vendor_cherish/blob/tiramisu/cherish.devices"
 req = requests.get(devurl)
 if req.status_code in [200]:
     devices = req.text
@@ -125,7 +125,7 @@ Please make PR if you didn't.
 📅 : {date}
 🧑‍💼 : {database[codename]['maintainer']}
 
-▪️ Changelog:</strong> <a href="https://t.me/CherishOS/1245" >Source</a> | <a href="{dclog}" >Device</a>
+▪️ Changelog:</strong> <a href="https://t.me/CherishOS/1403" >Source</a> | <a href="{dclog}" >Device</a>
 ▪️ <a href="https://downloads.cherishos.com" >Download</a>
 ▪️ <a href="http://paypal.me/hungphan2001" >Donate</a>
 ▪️ <a href="{database[codename]['sgroup']}" >Support Group</a>
